@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --base-color: #ffc929 ;
+    --accent-color: #155e75 ;
+    --light-color:  #e5e7eb; 
+
+   --base-font: 'Synonym', sans-serif;
+   --accent-font: 'Amulya', sans-serif;
+} 
+
