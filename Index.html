@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MalerMester</title>
+
+    <link href="https://api.fontshare.com/v2/css?f[]=amulya@400&f[]=synonym@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/Css/Style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="topnav">
+            <span class="TopLogo">
+                 <li><img src="Assets/Images/logo.png" alt="Logo"></li>
+            </span>
+           <ul>
+                <li><a href="#hjem">Hjem</a></li>
+                <li><a href="#tilbud">Få tilbud</a></li>
+                <li><a href="#pris">Priser</a></li>
+                <li><a href="#produkt">Produkter</a></li>
+                <li><a href="#info">Kontakt</a></li>
+                <li><a class="TopButton" href="#TilbudKnap">Få et tilbud</a></li>
+            
+            </ul>
+        </nav>
+        
+        <div class="hero">
+            <img src="Assets/Images/worker.jpg" alt="worker">
+            <section>
+                <h2>Lorem ipsum dolor sit amet</h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quas sapiente nostrum possimus cumque labore totam ut unde sunt pariatur debitis eligendi delectus quod, iste dicta neque quaerat, natus commodi.</p>
+    
+            </section>
+            <p class="experience">
+                <span>10+</span> års erfaring
+            </p>
+    
+            <img src="Assets/Images/waves.png" alt="graphics waves"> 
+
+    </header> 
+
+    <main>   
+        <form class="Input"> 
+            <label for="name">Navn</label>
+              <input type="text" id="name" name="visitor_name" pattern=[A-Z\sa-z]{3,20} required>
+          
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="visitor_email" required>
+           
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="visitor_phone" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        
+        
+            <button class="SendKnap" type="submit">Send</button>
+        </form> 
+    </main>
+
+    
+    
+</body>
+</html>
