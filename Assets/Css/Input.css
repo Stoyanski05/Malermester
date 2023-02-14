@@ -1,0 +1,36 @@
+.Input{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+    background-color:var(--accent-color) ;
+    color: white;
+
+
+    font-family: var(--base-font);
+    font-weight: 700;
+
+    width: 100rem;
+    height: 30px;
+
+    border: none;
+    border-radius: 15px;
+}
+
+.SendKnap{
+    display: block;
+    padding: 0.5rem;
+    width: 100px;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    text-align: center;
+    background-color: var(--base-color);
+    color: white;
+    font-weight: 700;
+
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+}
