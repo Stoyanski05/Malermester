@@ -1,0 +1,40 @@
+.cards{
+    width: 100%;
+
+    padding:8vh 0 ;
+/* This helps you w making the background an other color, as you wil need for the task */
+    background-color: var(--light-color);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cards section{
+    flex:0 1 300px;
+    align-self:stretch;
+
+    background-color: var(--light-color);
+    margin-inline: 1em;
+
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(50,50,50,50);
+    padding: 1.5rem;
+}
+
+.cards p{
+    font-size: small;
+    margin: 1.5rem 0;
+}
+
+.cards h2{
+    font-size: larger;
+    text-transform: uppercase;
+    /* font-family: var(--brand-font);
+    color: var(--mid-color); */
+}
+
+.cards span{
+    color: var(--brand-color);
+}

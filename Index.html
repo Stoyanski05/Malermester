@@ -7,22 +7,24 @@
     <title>MalerMester</title>
 
     <link href="https://api.fontshare.com/v2/css?f[]=amulya@400&f[]=synonym@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+
     <link rel="stylesheet" href="Assets/Css/Style.css">
 </head>
 <body>
 
     <header>
         <nav class="topnav">
-            <span class="TopLogo">
+            <span class="topLogo">
                  <li><img src="Assets/Images/logo.png" alt="Logo"></li>
             </span>
            <ul>
-                <li><a href="#hjem">Hjem</a></li>
-                <li><a href="#tilbud">Få tilbud</a></li>
-                <li><a href="#pris">Priser</a></li>
-                <li><a href="#produkt">Produkter</a></li>
-                <li><a href="#info">Kontakt</a></li>
-                <li><a class="TopButton" href="#TilbudKnap">Få et tilbud</a></li>
+                <li class="nav-item"><a href="#hjem">Hjem</a></li>
+                <li class="nav-item"><a href="#tilbud">Få tilbud</a></li>
+                <li class="nav-item"><a href="#pris">Priser</a></li>
+                <li class="nav-item"><a href="#produkt">Produkter</a></li>
+                <li class="nav-item"><a href="#info">Kontakt</a></li>
+                <li><a class="topButton" href="#TilbudKnap">Få et tilbud</a></li>
             
             </ul>
         </nav>
@@ -30,7 +32,7 @@
         <div class="hero">
             <img src="Assets/Images/worker.jpg" alt="worker">
             <section>
-                <h2>Lorem ipsum dolor sit amet</h2>
+                <h2>Malermester Madsen</h2>
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quas sapiente nostrum possimus cumque labore totam ut unde sunt pariatur debitis eligendi delectus quod, iste dicta neque quaerat, natus commodi.</p>
     
@@ -40,23 +42,47 @@
             </p>
     
             <img src="Assets/Images/waves.png" alt="graphics waves"> 
-
+        </div>
     </header> 
 
     <main>   
-        <form class="Input"> 
+        <form class="inputfelt"> 
             <label for="name">Navn</label>
               <input type="text" id="name" name="visitor_name" pattern=[A-Z\sa-z]{3,20} required>
           
-              <label for="email">E-mail</label>
+              <label for="email">Telefon</label>
               <input type="email" id="email" name="visitor_email" required>
            
-              <label for="phone">Telefon</label>
+              <label for="phone">Email</label>
               <input type="tel" id="phone" name="visitor_phone" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
         
         
-            <button class="SendKnap" type="submit">Send</button>
+            <button class="sendKnap" type="submit">Send</button>
         </form> 
+
+        <div class="cards">
+            <section>
+                <h2>Basis</h2>
+                <h3> </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt illo porro vitae est. Repellat, tenetur dolores cumque velit porro quasi assumenda amet numquam earum repudiandae sunt voluptatem dolorem provident.</p>
+
+                
+            </section>
+    
+            <section>
+                <h2>lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt illo porro vitae est. Repellat, tenetur dolores cumque velit porro quasi assumenda amet numquam earum repudiandae sunt voluptatem dolorem provident.</p>
+    
+              
+            </section>  
+
+            <section>
+                <h2>lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt illo porro vitae est. Repellat, tenetur dolores cumque velit porro quasi assumenda amet numquam earum repudiandae sunt voluptatem dolorem provident.</p>
+    
+
+            </section>
+        </div>
     </main>
 
     
