@@ -8,7 +8,8 @@
 :root{
     --base-color: #ffc929 ;
     --accent-color: #155e75 ;
-    --light-color:  #e5e7eb; 
+    --mid-color:  #e5e7eb; 
+    --light-color: #f8fafc;
 
    --base-font: 'Synonym', sans-serif;
    --accent-font: 'Amulya', sans-serif;
