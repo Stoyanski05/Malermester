@@ -1,5 +1,5 @@
 .topnav {
-    background-color: white;
+    background-color:var(--light-color);
     font-family:var(--accent-font);
     display: flex;
     justify-content: space-between;
@@ -21,10 +21,10 @@
     list-style: none;
 }
 
-.topnav a:hover{
+.nav-item a:hover{
     color: var(--base-color);
 }
-.TopLinks{
+.topLinks{
     padding-left: 650px;
     gap: 2rem;
 }
@@ -37,11 +37,10 @@
 
 .topnav img{
     object-fit: contain;
-    height: 100px;
     width: 100px;
 }
 
-.TopButton{
+header .topnav .topButton{
     display: block;
     padding: 0.7rem;
     width: 150px;
@@ -50,6 +49,7 @@
 
     text-align: center;
     background-color: var(--base-color);
+    color: var(--light-color);
     font-weight: 700;
 
     margin-left: 2.5rem;
@@ -57,7 +57,7 @@
 
 }
 
-.TopButton :hover{
-    color: white;
+.topnav .topButton:hover{
+    background-color: var(--accent-color);
 }
   
