@@ -1,0 +1,28 @@
+/* .product p{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.product h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+.product h3 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: rgb(255, 230, 0);
+
+}
+
+.product :nth-child(1) {
+    color: var(--accent-color);
+    padding: 2%;
+}
+
+.product section:nth-child(2) {
+    background-color: var(--accent-color);
+    color: white;
+} */
